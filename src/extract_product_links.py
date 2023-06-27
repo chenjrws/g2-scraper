@@ -6,7 +6,7 @@ from urllib.parse import urlparse, parse_qs
 class Task(BaseTask):
     
     GET_FIRST_PAGE = True
-    product_url = "https://www.g2.com/categories/sales-intelligence"
+    product_url = "https://www.g2.com/categories/marketing-automation"
     
     browser_config = BrowserConfig(use_undetected_driver=True)
 
